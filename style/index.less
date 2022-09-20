@@ -1,0 +1,42 @@
+@import '~solv-uicomponent/theme/index.less';
+:global {
+  // .ant-drawer-content-wrapper,.ant-drawer {
+  //   position: absolute !important;
+  // }
+  .driver-popover-tip {
+    display: none;
+  }
+  .navigation-guideline-wrapper {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+  }
+  .nav-highlight-box {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1003;
+    background-color: #0076ce61;
+  }
+  .nav-guide-modal {
+   min-width: 620px; 
+  }
+  .nav-guide-modal-title {
+    margin-top: @snx-px;
+  }
+  .nav-guide-trigger-btn {
+    margin-left: @snx-px-half;
+  }
+  .ant-modal-mask-hidden {
+    display: none !important;
+  }
+  .ant-modal-mask {
+    z-index: 1001 !important; 
+  }
+  .ant-modal-wrap {
+    z-index: 1002;
+  }
+}
